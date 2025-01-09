@@ -5,6 +5,9 @@ import Skills from './components/Skills';
 import './App.css';
 import UserProfile from './components/UserProfile';
 import Projects from './components/Projects';
+import Project from './components/Project';
+import Goals from './components/Goals';
+import Assessments from './components/Assessments';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Resume />
       <Skills />
       <Projects />
+      <Project/> 
+      <Assessments/>
+      <Goals/>
       <TeamSection />
      
      
