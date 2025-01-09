@@ -170,14 +170,15 @@ Copy code
    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div className="mb-14 text-center">
      <span className="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">
-         Features
+         Resume
        </span>
        <h2 className="text-4xl text-center font-bold text-gray-900 py-5">
-         Revolutionary Features
+         Resume Objective
     </h2>
      <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-         Provides advanced features like time tracking, integrating with third party apps (calendar / Google drive),
-       creating subtasks.
+        To obtain a challenging role as a web and app developer, utilizing my skills in (react.js, react native, mongo db, node.js),
+        to design and develop innovative digital solutions.
+      
       </p>
      </div>
 
