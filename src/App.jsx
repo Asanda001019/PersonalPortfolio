@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Project from './components/Project';
 import Goals from './components/Goals';
 import Assessments from './components/Assessments';
+import Profile from './components/Profile';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
       </Router> */}
 
 
-
+<Profile/>
       <UserProfile/>
       <Resume />
       <Skills />
