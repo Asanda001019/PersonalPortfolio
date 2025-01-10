@@ -10,7 +10,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section id='skills' className="py-24 relative">
       <div className="w-full max-w-7xl px-4 md:px-5 lg:px-6 mx-auto">
 
 

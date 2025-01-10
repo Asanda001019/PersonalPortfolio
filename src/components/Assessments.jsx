@@ -3,16 +3,28 @@ import React from 'react';
 const Assessments = () => {
   const assessmentsData = [
     {
-      title: "HTML & CSS Assessment",
+      title: "React.js & CSS Assessment",
       date: "Date",
       score: "85%",
       notes: "Above average.",
     },
     {
-      title: "JavaScript Assessment",
+      title: "React.js & Redux toolkit",
+      date: "Date",
+      score: "85%",
+      notes: "Above average.",
+    },
+    {
+      title: "Mongodb",
       date: "Date",
       score: "90%",
       notes: "Excellent understanding of basics.",
+    },
+    {
+      title: "Node.js",
+      date: "Date",
+      score: "85%",
+      notes: "Above average.",
     },
     {
       title: "React Native",
@@ -20,10 +32,16 @@ const Assessments = () => {
       score: "N/A",
       notes: "Completed an external course.",
     },
+    {
+      title: "Figma",
+      date: "Date",
+      score: "85%",
+      notes: "Above average.",
+    },
   ];
 
   return (
-    <section className="py-24">
+    <section id='assessments' className="py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
 

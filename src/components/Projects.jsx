@@ -70,7 +70,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section id='projects' className="py-24 bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <div className="mb-14 text-center">

@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamSection from './components/TeamSection';
+// import TeamSection from './components/TeamSection';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 import './App.css';
@@ -8,12 +8,12 @@ import Projects from './components/Projects';
 import Project from './components/Project';
 import Goals from './components/Goals';
 import Assessments from './components/Assessments';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/" element={<UserProfile/>} />
           <Route path="/resume" element={<Resume />} />
@@ -24,15 +24,18 @@ function App() {
           <Route path="/goals" element={<Goals />} />
           <Route path="/team" element={<TeamSection />} />
         </Routes>
-      </Router>
-      {/* <UserProfile/>
+      </Router> */}
+
+
+
+      <UserProfile/>
       <Resume />
       <Skills />
       <Projects />
       <Project/> 
       <Assessments/>
       <Goals/>
-      <TeamSection /> */}
+      {/* <TeamSection /> */}
      
      
       {/* Other components can go here */}
