@@ -50,9 +50,17 @@ const Goals = () => {
   ];
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-14 text-center">
+
+
+        <div className="mb-14 text-center">
+     <span className="py-1 px-4 bg-indigo-100 rounded-full text-md font-medium text-indigo-600 text-center">
+         Goals
+       </span>
+       </div>
+
           <h2 className="text-4xl font-bold text-gray-900 py-5">Post-Program Goals</h2>
           <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
             Here are my goals after completing the program.

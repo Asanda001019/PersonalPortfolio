@@ -8,68 +8,81 @@ const Projects = () => {
       name: "User  Interface Challenge",
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"]
+      technologies: ["React.js", "Tailwind CSS"],
+      link: "https://example.com/project1" // Add the project link here
     },
     {
       image: Project1,
       name: "User  Interface Challenge",
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"]
+      technologies: ["React.js", "Tailwind CSS"],
+      link: "https://example.com/project2" // Add the project link here
     },
     {
       image: Project1,
       name: "User  Interface Challenge",
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"]
+      technologies: ["React.js", "Tailwind CSS"],
+      link: "https://example.com/project3" // Add the project link here
     },
     {
       image: Project1,
       name: "User  Interface Challenge",
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"]
+      technologies: ["React.js", "Tailwind CSS"],
+      link: "https://example.com/project4" // Add the project link here
     },
     {
       image: "https://pagedone.io/asset/uploads/1696238396.png",
       name: "Patricia Angely",
       description: "A project description for Patricia's project.",
       features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"]
+      technologies: ["Tech 1", "Tech 2"],
+      link: "https://example.com/project5" // Add the project link here
     },
     {
       image: "https://pagedone.io/asset/uploads/1696238411.png",
       name: "Jerom Bell",
       description: "A project description for Jerom's project.",
       features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"]
+      technologies: ["Tech 1", "Tech 2"],
+      link: "https://example.com/project6" // Add the project link here
     },
     {
       image: "https://pagedone.io/asset/uploads/1696238425.png",
       name: "Yasmine Tano",
       description: "A project description for Yasmine's project.",
       features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"]
+      technologies: ["Tech 1", "Tech 2"],
+      link: "https://example.com/project7" // Add the project link here
     },
     {
       image: "https://pagedone.io/asset/uploads/1696238446.png",
       name: "Martin Darbys",
       description: "A project description for Martin's project.",
       features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"]
+      technologies: ["Tech 1", "Tech 2"],
+      link: "https://example.com/project8" // Add the project link here
     }
   ];
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
+          <div className="mb-14 text-center">
+            <span className="py-1 px-4 bg-indigo-100 rounded-full text-md font-medium text-indigo-600 text-center">
+              Projects 
+            </span>
+          </div>
           <h2 className="font-manrope text-5xl text-center font-bold text-gray-900">My Projects</h2>
         </div>
         <div className="grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {projectData.map((project, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+            <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="bg-white rounded-lg shadow -md overflow-hidden transition-transform transform hover:scale-105">
               <img 
                 src={project.image} 
                 alt={project.name} 
@@ -91,7 +104,7 @@ const Projects = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

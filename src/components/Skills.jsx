@@ -12,6 +12,14 @@ const Skills = () => {
   return (
     <section className="py-24 relative">
       <div className="w-full max-w-7xl px-4 md:px-5 lg:px-6 mx-auto">
+
+
+      <div className="mb-14 text-center">
+     <span className="py-1 px-4 bg-indigo-100 rounded-full text-md font-medium text-indigo-600 text-center">
+         Skills 
+       </span>
+       </div>
+        
         <h2 className="font-manrope font-bold text-4xl text-black mb-8 text-center">
           Programming Language Skills
         </h2>

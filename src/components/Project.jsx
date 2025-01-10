@@ -30,7 +30,15 @@ const Project = () => {
     <section className="py-24 bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <h2 className="font-manrope text-5xl text-center font-bold text-gray-900">My Projects2</h2>
+
+
+        <div className="mb-14 text-center">
+     <span className="py-1 px-4 bg-indigo-100 rounded-full text-md font-medium text-indigo-600 text-center">
+         Projects 
+       </span>
+       </div>
+
+          <h2 className="font-manrope text-5xl text-center font-bold text-gray-900">Group Projects</h2>
         </div>
         <div className="grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           {myProjectData.map((project, index) => (

@@ -25,6 +25,14 @@ const Assessments = () => {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+
+      <div className="mb-14 text-center">
+     <span className="py-1 px-4 bg-indigo-100 rounded-full text-md font-medium text-indigo-600 text-center">
+         Tasks
+       </span>
+       </div>
+
         <div className="mb-14 text-center">
           <h2 className="text-4xl font-bold text-gray-900 py-5">Assessments</h2>
         </div>
