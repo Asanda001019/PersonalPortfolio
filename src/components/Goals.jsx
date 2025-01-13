@@ -4,7 +4,7 @@ const Goals = () => {
   const goalsData = [
     {
       title: "Short Term Goals",
-      description: "Achieve specific objectives within the next 6 months.",
+      description: "I want to get a job in the tech industry and do microsoft certifications.",
       icon: (
         <svg className="w-10 h-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m-3-3H9m3-4a4 4 0 100 8 4 4 0 000-8z" />
@@ -13,7 +13,7 @@ const Goals = () => {
     },
     {
       title: "Long Term Goals",
-      description: "Plan for achievements over the next 1-5 years.",
+      description: "I want to start my own tech company and build a successful business.",
       icon: (
         <svg className="w-10 h-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />

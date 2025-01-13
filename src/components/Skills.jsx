@@ -3,10 +3,12 @@ import React from 'react';
 const Skills = () => {
   const skills = [
     { name: 'HTML', level: 'Advanced', usage: 'Used in all web projects' },
-    { name: 'CSS', level: 'Intermediate', usage: 'Used in styling web applications' },
+    { name: 'CSS', level: 'Advanced', usage: 'Used in styling web applications' },
     { name: 'JavaScript', level: 'Advanced', usage: 'Used in dynamic web applications' },
-    { name: 'React', level: 'Intermediate', usage: 'Used in building user interfaces' },
+    { name: 'React', level: 'Advanced', usage: 'Used in building user interfaces' },
     { name: 'Node.js', level: 'Intermediate', usage: 'Used in backend development' },
+    { name: 'React Native', level: 'Intermediate', usage: 'Used in building user interfaces' },
+    { name: 'Mongo Db', level: 'Intermediate', usage: 'Used in backend development' },
   ];
 
   return (

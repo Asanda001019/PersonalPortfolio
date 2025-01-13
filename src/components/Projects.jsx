@@ -1,5 +1,12 @@
 import React from 'react';
 import Project1 from '../assets/PROJECT1.png';
+import Employees from '../assets/Employees.png';
+import Hotel from '../assets/Hotel.png';
+import MarketPlace from '../assets/MARKET-PLACE.png';
+import Todo from '../assets/Todo.png';
+import Weather from '../assets/Weather.png';
+import Recipe from '../assets/Recipe.png';
+import Shopping from '../assets/Shopping.png';
 
 const Projects = () => {
   const projectData = [
@@ -9,62 +16,62 @@ const Projects = () => {
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
       technologies: ["React.js", "Tailwind CSS"],
-      link: "https://example.com/project1" // Add the project link here
+      link: "https://task6-employees-application-front.onrender.com" 
     },
     {
-      image: Project1,
-      name: "User  Interface Challenge",
-      description: "A web application that allows users to create and manage their own to-do lists.",
-      features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"],
-      link: "https://example.com/project2" // Add the project link here
+      image: Employees,
+      name: "Employee Management System",
+      description: "A web application that allows employees to manage their details.",
+      features: ["Add new employee", "Edit employee detail", "Remove employee", "View employee details"],
+      technologies: ["React.js", "Tailwind CSS, Local Storage"],
+      link: "https://task6-employees-application-front.onrender.com"
     },
     {
-      image: Project1,
-      name: "User  Interface Challenge",
-      description: "A web application that allows users to create and manage their own to-do lists.",
-      features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"],
-      link: "https://example.com/project3" // Add the project link here
-    },
+        image: Hotel,
+        name: "Hotel booking application",
+        description: "A web application that allows users to book hotel rooms and manage their bookings.",
+        features: ["Book hotel rooms", "Manage bookings", "Pay for bookings", "Cancel bookings"],
+        technologies: ["React.js", "Tailwind CSS, Firebase"],
+        link: "https://task6-employees-application-front.onrender.com"
+      },
     {
-      image: Project1,
-      name: "User  Interface Challenge",
-      description: "A web application that allows users to create and manage their own to-do lists.",
-      features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"],
+      image: MarketPlace,
+      name: "Market Place",
+      description: "A web application that allows users to browse and purchase products.",
+      features: ["Browse products", "Add to cart", "Checkout", "Pay for purchase"],
+      technologies: ["React.js", "Tailwind CSS, Firebase"],
       link: "https://example.com/project4" // Add the project link here
     },
     {
-      image: "https://pagedone.io/asset/uploads/1696238396.png",
-      name: "Patricia Angely",
-      description: "A project description for Patricia's project.",
-      features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"],
-      link: "https://example.com/project5" // Add the project link here
-    },
+        image: Todo,
+        name: "To-do List Application",
+        description: "A web application that allows users to create and manage their own to-do lists.",
+        features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete", "Add tags"],
+        technologies: ["React.js", "Tailwind CSS, Sqlite"],
+        link: "https://example.com/project4" // Add the project link here
+      },
     {
-      image: "https://pagedone.io/asset/uploads/1696238411.png",
-      name: "Jerom Bell",
-      description: "A project description for Jerom's project.",
-      features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"],
+      image: Weather,
+      name: "Weather Application",
+      description: "A web application that allows users to view weather information.",
+      features: ["View current weather", "View weather forecast", "View historical weather data"],
+      technologies: ["React.js", "Tailwind CSS, OpenWeather API"],
       link: "https://example.com/project6" // Add the project link here
     },
     {
-      image: "https://pagedone.io/asset/uploads/1696238425.png",
-      name: "Yasmine Tano",
-      description: "A project description for Yasmine's project.",
-      features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"],
+      image: Recipe,
+      name: "Recipe Application",
+      description: "A web application that allows users to create and share recipes.",
+      features: ["Create recipes", "Share recipes", "Add ingredients", "Add instructions"],
+      technologies: ["React.js", "Tailwind CSS, Firebase"],
       link: "https://example.com/project7" // Add the project link here
     },
     {
-      image: "https://pagedone.io/asset/uploads/1696238446.png",
-      name: "Martin Darbys",
-      description: "A project description for Martin's project.",
-      features: ["Feature 1", "Feature 2"],
-      technologies: ["Tech 1", "Tech 2"],
+      image: Shopping,
+      name: "Shopping Cart Application",
+      description: "A web application that allows users to add items to their shopping cart.",
+      features: ["Add items to cart", "Remove items from cart", "Checkout", "Apply discounts"],
+      technologies: ["React.js", "Tailwind CSS, Firebase"],
       link: "https://example.com/project8" // Add the project link here
     }
   ];

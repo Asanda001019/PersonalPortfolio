@@ -1,24 +1,25 @@
 import React from 'react';
 import Project1 from '../assets/PROJECT1.png';
+import Hotel from '../assets/Hotel.png';
 
 const Project = () => {
   const myProjectData = [
     {
-      image: Project1,
+      image: Hotel,
       name: "User  Interface Challenge",
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
       technologies: ["React.js", "Tailwind CSS"]
     },
     {
-      image: "https://example.com/my-project2.png",
+      image: Hotel,
       name: "My Second Project",
       description: "An innovative solution for managing personal finances.",
       features: ["Budget tracking", "Expense categorization", "Financial reports"],
       technologies: ["Vue.js", "Bootstrap"]
     },
     {
-      image: "https://example.com/my-project3.png",
+      image: Hotel,
       name: "My Third Project",
       description: "A social media platform for connecting with friends.",
       features: ["User  profiles", "Messaging", "Photo sharing"],
