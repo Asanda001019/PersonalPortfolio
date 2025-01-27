@@ -16,7 +16,7 @@ const Projects = () => {
       description: "A web application that allows users to create and manage their own to-do lists.",
       features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
       technologies: ["React.js", "Tailwind CSS"],
-      link: "https://task6-employees-application-front.onrender.com" 
+      link: "https://github.com/Asanda001019/TASK4-UI.git" 
     },
     {
       image: Employees,
@@ -32,7 +32,7 @@ const Projects = () => {
         description: "A web application that allows users to book hotel rooms and manage their bookings.",
         features: ["Book hotel rooms", "Manage bookings", "Pay for bookings", "Cancel bookings"],
         technologies: ["React.js", "Tailwind CSS, Firebase"],
-        link: "https://task6-employees-application-front.onrender.com"
+        link: "https://github.com/Asanda001019/BreezeBoutique.git"
       },
     {
       image: MarketPlace,
@@ -40,7 +40,7 @@ const Projects = () => {
       description: "A web application that allows users to browse and purchase products.",
       features: ["Browse products", "Add to cart", "Checkout", "Pay for purchase"],
       technologies: ["React.js", "Tailwind CSS, Firebase"],
-      link: "https://example.com/project4" // Add the project link here
+      link: "https://github.com/Asanda001019/CodeTribe-Marketplace.git"
     },
     {
         image: Todo,
@@ -48,7 +48,7 @@ const Projects = () => {
         description: "A web application that allows users to create and manage their own to-do lists.",
         features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete", "Add tags"],
         technologies: ["React.js", "Tailwind CSS, Sqlite"],
-        link: "https://example.com/project4" // Add the project link here
+        link: "https://github.com/Asanda001019/Task7.git"
       },
     {
       image: Weather,
@@ -56,7 +56,7 @@ const Projects = () => {
       description: "A web application that allows users to view weather information.",
       features: ["View current weather", "View weather forecast", "View historical weather data"],
       technologies: ["React.js", "Tailwind CSS, OpenWeather API"],
-      link: "https://example.com/project6" // Add the project link here
+      link: "https://github.com/Asanda001019/Weather-App.git" 
     },
     {
       image: Recipe,
@@ -64,15 +64,15 @@ const Projects = () => {
       description: "A web application that allows users to create and share recipes.",
       features: ["Create recipes", "Share recipes", "Add ingredients", "Add instructions"],
       technologies: ["React.js", "Tailwind CSS, Firebase"],
-      link: "https://example.com/project7" // Add the project link here
+      link: "https://github.com/Asanda001019/Task9-Online-Recipe.git"
     },
     {
       image: Shopping,
       name: "Shopping Cart Application",
       description: "A web application that allows users to add items to their shopping cart.",
-      features: ["Add items to cart", "Remove items from cart", "Checkout", "Apply discounts"],
+      features: ["Add items to cart", "Remove items from cart", "Checkout"],
       technologies: ["React.js", "Tailwind CSS, Firebase"],
-      link: "https://example.com/project8" // Add the project link here
+      link: "https://github.com/Asanda001019/Shopping-List-App.git"
     }
   ];
 

@@ -28,7 +28,7 @@ function App() {
       </Router> */}
 
 
-<Profile/>
+
       <UserProfile/>
       <Resume />
       <Skills />
