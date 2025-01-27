@@ -1,30 +1,35 @@
 import React from 'react';
 import Project1 from '../assets/PROJECT1.png';
 import Hotel from '../assets/Hotel.png';
+import Utmost from '../assets/utmost-trip.png';
 
 const Project = () => {
   const myProjectData = [
-    {
-      image: Hotel,
-      name: "User  Interface Challenge",
-      description: "A web application that allows users to create and manage their own to-do lists.",
-      features: ["Create tasks", "Edit tasks", "Delete tasks", "Mark tasks as complete"],
-      technologies: ["React.js", "Tailwind CSS"]
-    },
-    {
-      image: Hotel,
-      name: "My Second Project",
-      description: "An innovative solution for managing personal finances.",
-      features: ["Budget tracking", "Expense categorization", "Financial reports"],
-      technologies: ["Vue.js", "Bootstrap"]
-    },
-    {
-      image: Hotel,
-      name: "My Third Project",
-      description: "A social media platform for connecting with friends.",
-      features: ["User  profiles", "Messaging", "Photo sharing"],
-      technologies: ["Angular", "Material UI"]
-    }
+      {
+        image: Utmost,
+        name: "Weather Application",
+        description: "A web application that allows users to view weather information.",
+        features: ["View current weather", "View weather forecast", "View historical weather data"],
+        technologies: ["React.js", "Tailwind CSS, OpenWeather API"],
+        link: "https://github.com/Asanda001019/Weather-App.git" 
+      },
+  {
+         image: Hotel,
+         name: "Hotel booking application",
+         description: "A web application that allows users to book hotel rooms and manage their bookings.",
+         features: ["Book hotel rooms", "Manage bookings", "Pay for bookings", "Cancel bookings"],
+         technologies: ["React.js", "Tailwind CSS, Firebase"],
+         link: "https://github.com/Asanda001019/BreezeBoutique.git"
+       },
+       {
+        image: Utmost,
+        name: "Weather Application",
+        description: "A web application that allows users to view weather information.",
+        features: ["View current weather", "View weather forecast", "View historical weather data"],
+        technologies: ["React.js", "Tailwind CSS, OpenWeather API"],
+        link: "https://github.com/Asanda001019/Weather-App.git" 
+      },
+ 
   ];
 
   return (
