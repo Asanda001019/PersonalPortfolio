@@ -1,6 +1,6 @@
 import React from 'react';
 import Project1 from '../assets/PROJECT1.png';
-import Hotel from '../assets/Hotel.png';
+import Hotel from '../assets/HOTEL.png';
 import Utmost from '../assets/utmost-trip.png';
 
 const Project = () => {
