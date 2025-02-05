@@ -83,7 +83,7 @@ const UserProfile = () => {
 <br></br>
                 <h3 className="text-center font-manrope font-bold text-3xl leading-10 text-gray-900 mb-1">Asanda Madondo</h3>
                 <p className="font-normal text-base leading-7 text-gray-500 text-center mb-2">
-                I began my coding journey at CodeTribe Academy,<br></br> where I completed an immersive full-stack development program. During my time there,<br></br>  I gained hands-on experience with cutting-edge technologies, including React.js, Tailwind CSS, Node.js, and JavaScript.</p>
+                👋 I began my coding journey at CodeTribe Academy,<br></br> where I completed an immersive full-stack development program. During my time there,<br></br>  I gained hands-on experience with cutting-edge technologies, including React.js, Tailwind CSS, Node.js, and JavaScript.</p>
                 <div className="flex items-center justify-center gap-5">
                     <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-solid border-gray-300 group bg-gray-50 transition-all duration-500 hover:bg-indigo-700 hover:border-indigo-700">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" className="transition-all duration-500 group-hover:fill-white" />

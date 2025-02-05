@@ -9,6 +9,7 @@ import Project from './components/Project';
 import Goals from './components/Goals';
 import Assessments from './components/Assessments';
 import Profile from './components/Profile';
+import ContactSection from './components/ContactSection';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
       <Project/> 
       <Assessments/>
       <Goals/>
+      <ContactSection/>
+
       {/* <TeamSection /> */}
      
      
