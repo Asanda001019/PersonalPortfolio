@@ -30,7 +30,7 @@ const Assessments = () => {
       title: "React Native",
       date: "Date",
       score: "N/A",
-      notes: "Completed an external course.",
+      notes: "Above average.",
     },
     {
       title: "Figma",
@@ -87,7 +87,12 @@ const Assessments = () => {
           <div>
             <h4 className="text-lg font-semibold text-gray-800">Self-Reflection:</h4>
             <p className="text-gray-600">
-              Describe your growth, strengths, and areas for improvement during the program.
+            I quickly adapted to new technologies and frameworks, 
+            <br></br>which allowed me to keep pace with the fast-moving curriculum. 
+            <br></br>This adaptability also helped me embrace feedback and make necessary adjustments to my work. 
+            <br></br>I am grateful for the opportunity to learn and grow as a developer, and I am excited to continue my journey in the tech industry.
+
+
             </p>
           </div>
         </div>
